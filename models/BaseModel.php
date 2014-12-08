@@ -126,7 +126,7 @@ abstract class BaseModel extends CActiveRecord
     {
 
         $nestedSet = array(
-            'class' => 'ext.gtreetable.behaviors.nestedset.NestedSetBehavior',
+            'class' => 'vendor.yiiext.nested-set-behavior.NestedSetBehavior',
         );
 
         foreach (['rootAttribute', 'leftAttribute', 'rightAttribute', 'levelAttribute', 'hasManyRoots'] as $attribute) {
