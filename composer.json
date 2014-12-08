@@ -1,0 +1,20 @@
+{
+    "name": "gilek/yii-gtreetable",
+    "description": "yii-gtreetable is an extension of Yii Framework, which is wrapper for bootstrap-gtreetable plug-in, on the other hand it provides functionality which allows to save the nodes states into database.",
+    "keywords": ["yii", "extension", "gtreetable", "tree", "nested"],
+    "homepage": "https://github.com/gilek/yii-gtreetable",
+    "type": "yii-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej Kłak",
+            "email": "klak.maciej@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": ">=1.1.15",
+        "clevertech/yii-booster": "v4.0.1",
+        "yiiext/nested-set-behavior": "dev-master"
+    }
+}
